@@ -1,4 +1,5 @@
 To build docker your own,type:
+
 docker build -t container_name .
 Or pull it from docker.hub
 docker pull lexaheda/minecraft
