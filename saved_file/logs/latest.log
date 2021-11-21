@@ -1,360 +1,176 @@
-[17:00:02] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17:00:03] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[17:00:03] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[17:00:03] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[17:00:03] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[17:00:03] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[17:00:03] [main/INFO]: Reloading ResourceManager: Default
-[17:00:05] [Worker-Main-2/INFO]: Loaded 7 recipes
-[17:00:06] [Worker-Main-2/INFO]: Loaded 1137 advancements
-[17:00:11] [Server thread/INFO]: Starting minecraft server version 1.17.1
-[17:00:11] [Server thread/INFO]: Loading properties
-[17:00:11] [Server thread/INFO]: Default game type: SURVIVAL
-[17:00:11] [Server thread/INFO]: Generating keypair
-[17:00:11] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:00:11] [Server thread/INFO]: Using epoll channel type
-[17:00:12] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:00:12] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:00:12] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:00:12] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:00:12] [Server thread/INFO]: Preparing level "world"
-[17:00:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:00:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:00:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:00:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:00:14] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:00:14] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:00:14] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:00:15] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:00:16] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:00:16] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:00:16] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:00:17] [Worker-Main-2/INFO]: Preparing spawn area: 1%
-[17:00:17] [Worker-Main-2/INFO]: Preparing spawn area: 3%
-[17:00:18] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[17:00:18] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[17:00:29] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[17:00:29] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[17:00:29] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[17:00:29] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[17:00:29] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[17:00:29] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[17:00:29] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[17:00:29] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[17:00:29] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[17:00:29] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[17:00:29] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[17:00:29] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[17:00:29] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[17:00:29] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[17:00:29] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[17:00:29] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[17:00:29] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[17:00:29] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[17:00:29] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[17:00:29] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[17:00:29] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[17:00:29] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[17:00:30] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[17:00:30] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[17:00:31] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[17:00:31] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[17:00:32] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[17:00:33] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[17:00:33] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[17:00:33] [Worker-Main-2/INFO]: Preparing spawn area: 35%
-[17:00:34] [Worker-Main-2/INFO]: Preparing spawn area: 35%
-[17:00:35] [Server thread/INFO]: Time elapsed: 23071 ms
-[17:00:35] [Server thread/INFO]: Done (23.349s)! For help, type "help"
-[17:00:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
-[17:01:47] [Server thread/INFO]: b4xil[/127.0.0.1:38058] logged in with entity id 228 at (-283.07777178228395, 69.0, -272.7177273712379)
-[17:01:47] [Server thread/INFO]: b4xil joined the game
-[17:01:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
-[17:03:31] [Server thread/INFO]: Kamikaze313[/127.0.0.1:38076] logged in with entity id 440 at (-268.0554289543319, 70.0, -257.1653353354431)
-[17:03:31] [Server thread/INFO]: Kamikaze313 joined the game
-[17:05:25] [Server thread/INFO]: baba01voss[/127.0.0.1:38104] logged in with entity id 690 at (-455.98927803488033, 65.0, -188.76724949529012)
-[17:05:25] [Server thread/INFO]: baba01voss joined the game
-[17:05:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2062ms or 41 ticks behind
-[17:05:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7670ms or 153 ticks behind
-[17:06:14] [Server thread/INFO]: ithi[/127.0.0.1:38114] logged in with entity id 924 at (-270.43203882633685, 70.0, -246.78166856442184)
-[17:06:14] [Server thread/INFO]: ithi joined the game
-[17:06:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2027ms or 40 ticks behind
-[17:06:24] [Server thread/INFO]: baba01voss lost connection: Disconnected
-[17:06:24] [Server thread/INFO]: baba01voss left the game
-[17:06:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
-[17:06:49] [Server thread/INFO]: baba01voss[/127.0.0.1:38118] logged in with entity id 1057 at (-455.98927803488033, 65.0, -188.76724949529012)
-[17:06:49] [Server thread/INFO]: baba01voss joined the game
-[17:06:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2044ms or 40 ticks behind
-[17:07:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6395ms or 127 ticks behind
-[17:07:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3336ms or 66 ticks behind
-[17:07:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5559ms or 111 ticks behind
-[17:08:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6647ms or 132 ticks behind
-[17:08:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2043ms or 40 ticks behind
-[17:08:40] [Server thread/INFO]: ithi lost connection: Disconnected
-[17:08:40] [Server thread/INFO]: ithi left the game
-[17:08:42] [Server thread/INFO]: b4xil lost connection: Disconnected
-[17:08:42] [Server thread/INFO]: b4xil left the game
-[17:09:02] [Server thread/INFO]: <Kamikaze313> disconnect
-[17:09:04] [Server thread/INFO]: <Kamikaze313> salwaan
-[17:09:07] [Server thread/INFO]: <Kamikaze313> myre
-[17:09:08] [Server thread/INFO]: <Kamikaze313> myre
-[17:09:10] [Server thread/INFO]: <Kamikaze313> dc
-[17:09:29] [Server thread/INFO]: <Kamikaze313> disconnect cey
-[17:09:33] [Server thread/INFO]: <Kamikaze313> wefwejfbf
-[17:09:34] [Server thread/INFO]: <Kamikaze313> regergr
-[17:09:35] [Server thread/INFO]: <Kamikaze313> regerfs
-[17:09:41] [Server thread/INFO]: b4xil[/127.0.0.1:38144] logged in with entity id 1683 at (-267.082891867843, 70.0, -263.3698013594094)
-[17:09:41] [Server thread/INFO]: b4xil joined the game
-[17:09:50] [Server thread/INFO]: ithi[/127.0.0.1:38146] logged in with entity id 1705 at (-252.23329839702424, 70.0, -257.69999998807907)
-[17:09:50] [Server thread/INFO]: ithi joined the game
-[17:09:52] [Server thread/INFO]: b4xil lost connection: Disconnected
-[17:09:52] [Server thread/INFO]: b4xil left the game
-[17:10:27] [Server thread/INFO]: baba01voss lost connection: Disconnected
-[17:10:27] [Server thread/INFO]: baba01voss left the game
-[17:10:29] [Server thread/INFO]: baba01voss[/127.0.0.1:38152] logged in with entity id 1821 at (-455.98927803488033, 65.0, -188.76724949529012)
-[17:10:29] [Server thread/INFO]: baba01voss joined the game
-[17:10:33] [Server thread/INFO]: ithi lost connection: Disconnected
-[17:10:33] [Server thread/INFO]: ithi left the game
-[17:11:05] [Server thread/INFO]: baba01voss lost connection: Disconnected
-[17:11:05] [Server thread/INFO]: baba01voss left the game
-[17:11:10] [Server thread/INFO]: b4xil[/127.0.0.1:38160] logged in with entity id 2016 at (-264.8419356339535, 70.0, -255.62036410566344)
-[17:11:10] [Server thread/INFO]: b4xil joined the game
-[17:11:11] [Server thread/INFO]: ithi[/127.0.0.1:38162] logged in with entity id 2021 at (-292.5890215386513, 42.0, -273.7524301330612)
-[17:11:11] [Server thread/INFO]: ithi joined the game
-[17:11:12] [Server thread/INFO]: baba01voss[/127.0.0.1:38164] logged in with entity id 2048 at (-455.98927803488033, 65.0, -188.76724949529012)
-[17:11:12] [Server thread/INFO]: baba01voss joined the game
-[17:11:26] [Server thread/INFO]: b4xil lost connection: Timed out
-[17:11:26] [Server thread/INFO]: b4xil left the game
-[17:11:26] [Server thread/WARN]: handleDisconnection() called twice
-[17:11:26] [Server thread/INFO]: ithi lost connection: Timed out
-[17:11:26] [Server thread/INFO]: ithi left the game
-[17:11:27] [Server thread/INFO]: baba01voss lost connection: Timed out
-[17:11:27] [Server thread/INFO]: baba01voss left the game
-[17:11:30] [Server thread/INFO]: ithi[/127.0.0.1:38166] logged in with entity id 2192 at (-292.5890215386513, 42.0, -273.7524301330612)
-[17:11:30] [Server thread/INFO]: ithi joined the game
-[17:11:33] [Server thread/INFO]: b4xil[/127.0.0.1:38168] logged in with entity id 2253 at (-264.8419356339535, 70.0, -255.62036410566344)
-[17:11:33] [Server thread/INFO]: b4xil joined the game
-[17:11:37] [Server thread/INFO]: baba01voss[/127.0.0.1:38170] logged in with entity id 2255 at (-455.98927803488033, 65.0, -188.76724949529012)
-[17:11:37] [Server thread/INFO]: baba01voss joined the game
-[17:13:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2060ms or 41 ticks behind
-[17:13:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3614ms or 72 ticks behind
-[17:13:48] [Server thread/INFO]: b4xil lost connection: Timed out
-[17:13:48] [Server thread/INFO]: b4xil left the game
-[17:14:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2097ms or 41 ticks behind
-[17:14:24] [Server thread/INFO]: b4xil[/127.0.0.1:38188] logged in with entity id 3205 at (-268.68906970570583, 70.0, -252.21714299470366)
-[17:14:24] [Server thread/INFO]: b4xil joined the game
-[17:16:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2067ms or 41 ticks behind
-[17:18:57] [Server thread/INFO]: b4xil fell from a high place
-[17:19:26] [Server thread/INFO]: BlackSpidie[/127.0.0.1:38230] logged in with entity id 4707 at (-272.69999998807907, 70.5625, -256.5252320399115)
-[17:19:26] [Server thread/INFO]: BlackSpidie joined the game
-[17:20:29] [Server thread/INFO]: baba01voss lost connection: Disconnected
-[17:20:29] [Server thread/INFO]: baba01voss left the game
-[17:20:31] [Server thread/INFO]: baba01voss[/127.0.0.1:38240] logged in with entity id 5057 at (-254.7144813159361, 69.0, 16.623021201447738)
-[17:20:31] [Server thread/INFO]: baba01voss joined the game
-[17:20:45] [Server thread/INFO]: ithi has made the advancement [Suit Up]
-[17:22:15] [Server thread/INFO]: baba01voss lost connection: Disconnected
-[17:22:15] [Server thread/INFO]: baba01voss left the game
-[17:22:17] [Server thread/INFO]: ithi lost connection: Disconnected
-[17:22:17] [Server thread/INFO]: ithi left the game
-[17:22:18] [Server thread/INFO]: Kamikaze313 lost connection: Disconnected
-[17:22:18] [Server thread/INFO]: Kamikaze313 left the game
-[17:22:40] [Server thread/INFO]: BlackSpidie lost connection: Disconnected
-[17:22:40] [Server thread/INFO]: BlackSpidie left the game
-[17:22:47] [Server thread/INFO]: Kamikaze313[/127.0.0.1:38264] logged in with entity id 5837 at (-194.33061344061028, 73.0, 61.69999998807907)
-[17:22:47] [Server thread/INFO]: Kamikaze313 joined the game
-[17:22:51] [Server thread/INFO]: ithi[/127.0.0.1:38268] logged in with entity id 6066 at (-193.0496832888487, 73.0, 59.20627194119527)
-[17:22:51] [Server thread/INFO]: ithi joined the game
-[17:22:53] [Server thread/INFO]: BlackSpidie[/127.0.0.1:38272] logged in with entity id 6099 at (-270.98305403113494, 70.0, -249.25772882837745)
-[17:22:53] [Server thread/INFO]: BlackSpidie joined the game
-[17:22:55] [Server thread/INFO]: baba01voss[/127.0.0.1:38274] logged in with entity id 6124 at (-261.38684381898986, 69.0, 19.187668896922453)
-[17:22:55] [Server thread/INFO]: baba01voss joined the game
-[17:23:08] [Server thread/INFO]: BlackSpidie lost connection: Timed out
-[17:23:08] [Server thread/INFO]: BlackSpidie left the game
-[17:23:16] [Server thread/INFO]: BlackSpidie[/127.0.0.1:38278] logged in with entity id 6283 at (-270.98305403113494, 70.0, -249.25772882837745)
-[17:23:16] [Server thread/INFO]: BlackSpidie joined the game
-[17:23:34] [Server thread/WARN]: baba01voss moved too quickly! 10.022703168101089,-1.0,0.16656988314196042
-[17:23:41] [Server thread/INFO]: BlackSpidie lost connection: Disconnected
-[17:23:41] [Server thread/INFO]: BlackSpidie left the game
-[17:25:08] [Server thread/INFO]: BlackSpidie[/127.0.0.1:38300] logged in with entity id 7042 at (-270.98305403113494, 70.0, -249.25772882837745)
-[17:25:08] [Server thread/INFO]: BlackSpidie joined the game
-[17:25:15] [Server thread/INFO]: baba01voss was slain by Iron Golem
-[17:33:49] [Server thread/INFO]: ithi lost connection: Disconnected
-[17:33:49] [Server thread/INFO]: ithi left the game
-[17:33:50] [Server thread/INFO]: baba01voss lost connection: Disconnected
-[17:33:50] [Server thread/INFO]: baba01voss left the game
-[17:34:05] [Server thread/INFO]: ithi[/127.0.0.1:38392] logged in with entity id 9915 at (-260.08742831989605, 69.0, 50.356664629897814)
-[17:34:05] [Server thread/INFO]: ithi joined the game
-[17:34:20] [Server thread/INFO]: baba01voss[/127.0.0.1:38396] logged in with entity id 9998 at (-293.9513388060524, 69.0, -273.5659266149426)
-[17:34:20] [Server thread/INFO]: baba01voss joined the game
-[17:34:35] [Server thread/INFO]: baba01voss lost connection: Timed out
-[17:34:35] [Server thread/INFO]: baba01voss left the game
-[17:34:53] [Server thread/INFO]: baba01voss[/127.0.0.1:38400] logged in with entity id 10167 at (-293.9513388060524, 69.0, -273.5659266149426)
-[17:34:53] [Server thread/INFO]: baba01voss joined the game
-[17:35:30] [Server thread/WARN]: Boat (vehicle of Kamikaze313) moved wrongly! 0.30279984100824464
-[17:35:30] [Server thread/WARN]: Boat (vehicle of Kamikaze313) moved wrongly! 0.38408180824936977
-[17:35:30] [Server thread/WARN]: Boat (vehicle of Kamikaze313) moved wrongly! 0.45009106174451574
-[17:35:30] [Server thread/WARN]: Boat (vehicle of Kamikaze313) moved wrongly! 0.5148666109006541
-[17:38:42] [Server thread/WARN]: Mismatch in destroy block pos: gg{x=-146, y=63, z=-235} gg{x=-145, y=62, z=-236}
-[17:41:40] [Server thread/WARN]: Boat (vehicle of Kamikaze313) moved wrongly! 0.2717560215748449
-[17:41:40] [Server thread/WARN]: Boat (vehicle of Kamikaze313) moved wrongly! 0.2717560215748449
-[17:42:59] [Server thread/WARN]: baba01voss moved too quickly! 7.623407464364163,-1.2032643993312888,6.522097131879633
-[17:43:12] [Server thread/INFO]: BlackSpidie has made the advancement [Not Today, Thank You]
-[17:43:20] [Server thread/INFO]: b4xil has made the advancement [Monster Hunter]
-[17:44:44] [Server thread/INFO]: Kamikaze313 was slain by Vindicator
-[17:44:47] [Server thread/INFO]: ithi was slain by Vindicator
-[17:45:02] [Server thread/INFO]: Kamikaze313 was slain by Vindicator
-[17:45:07] [Server thread/INFO]: BlackSpidie was shot by Pillager
-[17:45:15] [Server thread/INFO]: ithi was slain by Vindicator
-[17:45:29] [Server thread/INFO]: ithi was slain by Vindicator
-[17:45:40] [Server thread/INFO]: Kamikaze313 was slain by Vindicator
-[17:45:42] [Server thread/INFO]: Kamikaze313 has made the advancement [Suit Up]
-[17:45:45] [Server thread/INFO]: ithi was slain by Vindicator
-[17:45:51] [Server thread/WARN]: Mismatch in destroy block pos: gg{x=0, y=0, z=0} gg{x=-270, y=69, z=-256}
-[17:45:56] [Server thread/INFO]: Kamikaze313 was slain by Vindicator
-[17:47:42] [Server thread/INFO]: b4xil was slain by Ravager
-[17:47:48] [Server thread/INFO]: BlackSpidie was slain by Ravager
-[17:48:10] [Server thread/INFO]: b4xil has made the advancement [Acquire Hardware]
-[17:48:45] [Server thread/INFO]: baba01voss hit the ground too hard
-[17:49:15] [Server thread/INFO]: BlackSpidie was slain by Ravager
-[17:49:41] [Server thread/INFO]: BlackSpidie has made the advancement [Ol' Betsy]
-[17:49:55] [Server thread/INFO]: b4xil was shot by Pillager
-[17:49:56] [Server thread/INFO]: baba01voss was slain by Zombie
-[17:49:58] [Server thread/INFO]: Kamikaze313 has made the advancement [Not Today, Thank You]
-[17:50:38] [Server thread/INFO]: BlackSpidie was slain by Ravager
-[17:51:13] [Server thread/INFO]: Kamikaze313 has completed the challenge [Hero of the Village]
-[17:51:13] [Server thread/INFO]: b4xil has completed the challenge [Hero of the Village]
-[17:51:13] [Server thread/INFO]: BlackSpidie has completed the challenge [Hero of the Village]
-[17:51:19] [Server thread/INFO]: b4xil was slain by Spider
-[17:51:50] [Server thread/INFO]: baba01voss lost connection: Disconnected
-[17:51:50] [Server thread/INFO]: baba01voss left the game
-[17:51:55] [Server thread/INFO]: b4xil lost connection: Disconnected
-[17:51:55] [Server thread/INFO]: b4xil left the game
-[17:51:59] [Server thread/INFO]: ithi lost connection: Disconnected
-[17:51:59] [Server thread/INFO]: ithi left the game
-[17:52:04] [Server thread/INFO]: b4xil[/127.0.0.1:38480] logged in with entity id 14765 at (-271.60434849137323, 70.0, -248.2066966609445)
-[17:52:04] [Server thread/INFO]: b4xil joined the game
-[17:52:04] [Server thread/INFO]: ithi[/127.0.0.1:38482] logged in with entity id 14766 at (-271.0751700713464, 70.5625, -257.1349086568277)
-[17:52:04] [Server thread/INFO]: ithi joined the game
-[17:52:05] [Server thread/INFO]: baba01voss[/127.0.0.1:38484] logged in with entity id 14770 at (-269.30000001192093, 63.0, -242.30000001192093)
-[17:52:05] [Server thread/INFO]: baba01voss joined the game
-[17:56:57] [Server thread/INFO]: BlackSpidie lost connection: Disconnected
-[17:56:57] [Server thread/INFO]: BlackSpidie left the game
-[18:02:11] [Server thread/INFO]: Kamikaze313 lost connection: Disconnected
-[18:02:11] [Server thread/INFO]: Kamikaze313 left the game
-[18:02:48] [Server thread/INFO]: ithi lost connection: Disconnected
-[18:02:48] [Server thread/INFO]: ithi left the game
-[18:02:59] [Server thread/INFO]: baba01voss has made the advancement [Sweet Dreams]
-[18:03:27] [Server thread/INFO]: ithi[/127.0.0.1:38564] logged in with entity id 16669 at (-269.0600860104616, 71.0, -259.05478805652035)
-[18:03:27] [Server thread/INFO]: ithi joined the game
-[18:05:07] [Server thread/INFO]: Kamikaze313[/127.0.0.1:38578] logged in with entity id 16943 at (-286.2723414184139, 75.0, -285.4737300837811)
-[18:05:07] [Server thread/INFO]: Kamikaze313 joined the game
-[18:06:32] [Server thread/INFO]: Kamikaze313 lost connection: Disconnected
-[18:06:32] [Server thread/INFO]: Kamikaze313 left the game
-[18:07:12] [Server thread/INFO]: Kamikaze313[/127.0.0.1:38592] logged in with entity id 17250 at (-264.0415488879463, 70.0, -282.02511954240146)
-[18:07:12] [Server thread/INFO]: Kamikaze313 joined the game
-[18:13:04] [Server thread/INFO]: b4xil hit the ground too hard
-[18:13:51] [Server thread/INFO]: ithi lost connection: Disconnected
-[18:13:51] [Server thread/INFO]: ithi left the game
-[18:13:56] [Server thread/INFO]: baba01voss lost connection: Disconnected
-[18:13:56] [Server thread/INFO]: baba01voss left the game
-[18:14:09] [Server thread/INFO]: ithi[/127.0.0.1:38628] logged in with entity id 18239 at (-293.3063600861545, 67.0, -266.1349190557967)
-[18:14:09] [Server thread/INFO]: ithi joined the game
-[18:14:17] [Server thread/INFO]: baba01voss[/127.0.0.1:38630] logged in with entity id 18255 at (-290.75639688938986, 69.0, -269.35097959436035)
-[18:14:17] [Server thread/INFO]: baba01voss joined the game
-[18:14:24] [Server thread/INFO]: ithi lost connection: Disconnected
-[18:14:24] [Server thread/INFO]: ithi left the game
-[18:14:40] [Server thread/INFO]: baba01voss lost connection: Disconnected
-[18:14:40] [Server thread/INFO]: baba01voss left the game
-[18:14:43] [Server thread/INFO]: baba01voss[/127.0.0.1:38636] logged in with entity id 18294 at (-271.2506575473391, 70.5625, -256.66978739975957)
-[18:14:43] [Server thread/INFO]: baba01voss joined the game
-[18:14:46] [Server thread/INFO]: ithi[/127.0.0.1:38638] logged in with entity id 18304 at (-268.30000001192093, 70.0, -257.2875666017293)
-[18:14:46] [Server thread/INFO]: ithi joined the game
-[18:17:15] [Server thread/INFO]: <Kamikaze313> pumpkin pie
-[18:19:43] [Server thread/INFO]: baba01voss lost connection: Timed out
-[18:19:43] [Server thread/INFO]: baba01voss left the game
-[18:19:43] [Server thread/WARN]: handleDisconnection() called twice
-[18:20:15] [Server thread/INFO]: baba01voss[/127.0.0.1:38668] logged in with entity id 19163 at (-295.9455883903076, 69.0, -260.8690298412241)
-[18:20:15] [Server thread/INFO]: baba01voss joined the game
-[18:20:16] [Server thread/INFO]: <Kamikaze313> need more iron bois
-[18:20:19] [Server thread/INFO]: <Kamikaze313> mine
-[18:24:38] [Server thread/INFO]: <Kamikaze313> mine
-[18:24:47] [Server thread/INFO]: <Kamikaze313> old
-[18:24:54] [Server thread/INFO]: <Kamikaze313> patte old alla
-[18:25:06] [Server thread/INFO]: <Kamikaze313> haa
-[18:25:15] [Server thread/INFO]: baba01voss was slain by Zombie
-[18:25:39] [Server thread/INFO]: b4xil lost connection: Disconnected
-[18:25:39] [Server thread/INFO]: b4xil left the game
-[18:25:41] [Server thread/INFO]: ithi lost connection: Disconnected
-[18:25:41] [Server thread/INFO]: ithi left the game
-[18:25:45] [Server thread/INFO]: Kamikaze313 lost connection: Disconnected
-[18:25:45] [Server thread/INFO]: Kamikaze313 left the game
-[18:25:50] [Server thread/INFO]: Kamikaze313[/127.0.0.1:38702] logged in with entity id 20490 at (-185.44574910002297, 16.0, -256.30000001192093)
-[18:25:50] [Server thread/INFO]: Kamikaze313 joined the game
-[18:25:51] [Server thread/INFO]: b4xil[/127.0.0.1:38704] logged in with entity id 20521 at (-293.2786222039457, 65.0, -264.30000001192093)
-[18:25:51] [Server thread/INFO]: b4xil joined the game
-[18:25:53] [Server thread/INFO]: ithi[/127.0.0.1:38706] logged in with entity id 20537 at (-268.23750001192093, 70.0, -258.69999998807907)
-[18:25:53] [Server thread/INFO]: ithi joined the game
-[18:28:42] [Server thread/INFO]: <Kamikaze313> iron
-[18:28:46] [Server thread/INFO]: <Kamikaze313> :)
-[18:28:50] [Server thread/INFO]: <Kamikaze313> iron
-[18:28:54] [Server thread/INFO]: <Kamikaze313> axe alla
-[18:29:02] [Server thread/INFO]: <Kamikaze313> haa
-[18:29:08] [Server thread/INFO]: <Kamikaze313> auto smelter indakaan
-[18:29:23] [Server thread/INFO]: <Kamikaze313> haa
-[18:29:34] [Server thread/INFO]: <Kamikaze313> njn mine cheyynd
-[18:29:43] [Server thread/INFO]: <Kamikaze313> haa
-[18:29:46] [Server thread/INFO]: <Kamikaze313> ath mathi
-[18:34:21] [Server thread/WARN]: Mismatch in destroy block pos: gg{x=-300, y=68, z=-247} gg{x=-300, y=67, z=-246}
-[18:35:24] [Server thread/INFO]: <Kamikaze313> njn ivde thi
-[18:36:36] [Server thread/INFO]: b4xil lost connection: Disconnected
-[18:36:36] [Server thread/INFO]: b4xil left the game
-[18:36:38] [Server thread/INFO]: <Kamikaze313> njn penn ano
-[18:36:40] [Server thread/INFO]: <Kamikaze313> skin
-[18:36:48] [Server thread/INFO]: baba01voss lost connection: Disconnected
-[18:36:48] [Server thread/INFO]: baba01voss left the game
-[18:36:53] [Server thread/INFO]: baba01voss[/127.0.0.1:38756] logged in with entity id 22850 at (-291.2931766589364, 69.0, -253.8829925942168)
-[18:36:53] [Server thread/INFO]: baba01voss joined the game
-[18:36:58] [Server thread/INFO]: b4xil[/127.0.0.1:38758] logged in with entity id 22869 at (-289.8349688389057, 69.0, -256.0806169492017)
-[18:36:58] [Server thread/INFO]: b4xil joined the game
-[18:37:27] [Server thread/INFO]: b4xil was blown up by Creeper
-[18:37:42] [Server thread/INFO]: baba01voss has made the advancement [Isn't It Iron Pick]
-[18:46:10] [Server thread/INFO]: <Kamikaze313> mic
-[18:46:12] [Server thread/INFO]: <Kamikaze313> illa
-[18:46:54] [Server thread/INFO]: baba01voss fell from a high place
-[18:47:56] [Server thread/INFO]: b4xil lost connection: Disconnected
-[18:47:56] [Server thread/INFO]: b4xil left the game
-[18:47:57] [Server thread/INFO]: ithi lost connection: Disconnected
-[18:47:57] [Server thread/INFO]: ithi left the game
-[18:48:09] [Server thread/INFO]: ithi[/127.0.0.1:38854] logged in with entity id 24817 at (-320.92512151895465, 4.0, -333.40572960110825)
-[18:48:09] [Server thread/INFO]: ithi joined the game
-[18:50:26] [Server thread/INFO]: baba01voss was slain by Kamikaze313
-[18:51:13] [Server thread/INFO]: baba01voss was slain by Kamikaze313
-[18:51:50] [Server thread/INFO]: baba01voss was slain by Kamikaze313
-[18:53:02] [Server thread/INFO]: baba01voss was slain by Kamikaze313
-[18:53:06] [Server thread/INFO]: <Kamikaze313> ez
-[18:53:40] [Server thread/INFO]: baba01voss was slain by Kamikaze313
-[18:54:42] [Server thread/INFO]: baba01voss was slain by Kamikaze313
-[18:55:02] [Server thread/INFO]: <Kamikaze313> peace
-[18:55:45] [Server thread/INFO]: baba01voss was slain by Kamikaze313
-[18:57:21] [Server thread/INFO]: Villager bjr['Villager'/9050, l='ServerLevel[world]', x=-238.21, y=68.90, z=-265.27] died, message: 'Villager was slain by baba01voss'
-[18:57:40] [Server thread/INFO]: <Kamikaze313> myran
-[18:58:49] [Server thread/INFO]: <baba01voss> ok bie
-[18:58:55] [Server thread/INFO]: baba01voss was slain by Kamikaze313
-[19:02:08] [Server thread/INFO]: baba01voss was slain by Kamikaze313
-[19:05:02] [Server thread/INFO]: Kamikaze313 was slain by Zombie
-[19:05:04] [Server thread/INFO]: baba01voss has made the advancement [Stone Age]
-[19:05:07] [Server thread/INFO]: baba01voss has made the advancement [Monster Hunter]
-[19:05:11] [Server thread/INFO]: baba01voss has made the advancement [Getting an Upgrade]
-[19:05:21] [Server thread/INFO]: baba01voss was slain by Zombie
-[19:05:40] [Server thread/INFO]: Kamikaze313 was slain by Zombie
-[19:06:37] [Server thread/INFO]: baba01voss was slain by Spider
-[19:07:50] [Server thread/INFO]: baba01voss fell from a high place
-[19:08:09] [Server thread/INFO]: Kamikaze313 was slain by ithi
-[19:09:28] [Server thread/INFO]: ithi was slain by baba01voss
-[19:09:46] [Server thread/INFO]: baba01voss was slain by Kamikaze313
-[19:11:46] [Server thread/INFO]: baba01voss was slain by Enderman
-[19:12:48] [Server thread/INFO]: baba01voss has made the advancement [Suit Up]
-[19:13:04] [Server thread/INFO]: Kamikaze313 lost connection: Disconnected
-[19:13:04] [Server thread/INFO]: Kamikaze313 left the game
-[19:13:05] [Server thread/INFO]: baba01voss lost connection: Disconnected
-[19:13:05] [Server thread/INFO]: baba01voss left the game
+[18:15:10] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:15:11] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:15:11] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:15:11] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18:15:11] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18:15:11] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:15:11] [main/INFO]: Reloading ResourceManager: Default
+[18:15:13] [Worker-Main-2/INFO]: Loaded 7 recipes
+[18:15:14] [Worker-Main-2/INFO]: Loaded 1137 advancements
+[18:15:19] [Server thread/INFO]: Starting minecraft server version 1.17.1
+[18:15:19] [Server thread/INFO]: Loading properties
+[18:15:19] [Server thread/INFO]: Default game type: SURVIVAL
+[18:15:19] [Server thread/INFO]: Generating keypair
+[18:15:19] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:15:19] [Server thread/INFO]: Using epoll channel type
+[18:15:19] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:15:19] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:15:19] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:15:19] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:15:19] [Server thread/INFO]: Preparing level "world"
+[18:15:20] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:15:20] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:15:20] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:15:21] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:15:21] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:15:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:15:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:15:23] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:15:23] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:15:24] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[18:15:24] [Worker-Main-2/INFO]: Preparing spawn area: 1%
+[18:15:25] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[18:15:25] [Worker-Main-2/INFO]: Preparing spawn area: 5%
+[18:15:26] [Worker-Main-2/INFO]: Preparing spawn area: 12%
+[18:15:26] [Worker-Main-2/INFO]: Preparing spawn area: 12%
+[18:15:27] [Worker-Main-2/INFO]: Preparing spawn area: 12%
+[18:15:27] [Worker-Main-2/INFO]: Preparing spawn area: 12%
+[18:15:38] [Worker-Main-2/INFO]: Preparing spawn area: 22%
+[18:15:38] [Worker-Main-2/INFO]: Preparing spawn area: 22%
+[18:15:38] [Worker-Main-2/INFO]: Preparing spawn area: 22%
+[18:15:38] [Worker-Main-2/INFO]: Preparing spawn area: 22%
+[18:15:38] [Worker-Main-2/INFO]: Preparing spawn area: 22%
+[18:15:38] [Worker-Main-2/INFO]: Preparing spawn area: 22%
+[18:15:38] [Worker-Main-2/INFO]: Preparing spawn area: 22%
+[18:15:38] [Worker-Main-2/INFO]: Preparing spawn area: 22%
+[18:15:38] [Worker-Main-2/INFO]: Preparing spawn area: 22%
+[18:15:38] [Worker-Main-2/INFO]: Preparing spawn area: 22%
+[18:15:38] [Worker-Main-2/INFO]: Preparing spawn area: 22%
+[18:15:38] [Worker-Main-2/INFO]: Preparing spawn area: 22%
+[18:15:38] [Worker-Main-2/INFO]: Preparing spawn area: 22%
+[18:15:38] [Worker-Main-2/INFO]: Preparing spawn area: 22%
+[18:15:38] [Worker-Main-2/INFO]: Preparing spawn area: 22%
+[18:15:38] [Worker-Main-2/INFO]: Preparing spawn area: 22%
+[18:15:38] [Worker-Main-2/INFO]: Preparing spawn area: 23%
+[18:15:38] [Worker-Main-2/INFO]: Preparing spawn area: 23%
+[18:15:38] [Worker-Main-2/INFO]: Preparing spawn area: 23%
+[18:15:38] [Worker-Main-2/INFO]: Preparing spawn area: 23%
+[18:15:38] [Worker-Main-2/INFO]: Preparing spawn area: 23%
+[18:15:38] [Worker-Main-2/INFO]: Preparing spawn area: 24%
+[18:15:39] [Worker-Main-2/INFO]: Preparing spawn area: 24%
+[18:15:39] [Worker-Main-2/INFO]: Preparing spawn area: 24%
+[18:15:40] [Worker-Main-2/INFO]: Preparing spawn area: 24%
+[18:15:40] [Worker-Main-2/INFO]: Preparing spawn area: 24%
+[18:15:41] [Worker-Main-2/INFO]: Preparing spawn area: 44%
+[18:15:42] [Server thread/INFO]: Time elapsed: 22218 ms
+[18:15:42] [Server thread/INFO]: Done (22.465s)! For help, type "help"
+[18:15:42] [Server thread/INFO]: com.mojang.authlib.GameProfile@5e82b1d5[id=<null>,name=baba01voss,properties={},legacy=false] (/127.0.0.1:49306) lost connection: Disconnected
+[18:15:43] [Server thread/INFO]: baba01voss[/127.0.0.1:49310] logged in with entity id 316 at (-383.7946676421346, 62.019027475966375, -191.24652518744367)
+[18:15:43] [Server thread/INFO]: baba01voss joined the game
+[18:15:46] [Server thread/INFO]: ithi[/127.0.0.1:49314] logged in with entity id 317 at (-242.5356807633443, 69.0, -257.22178881064787)
+[18:15:46] [Server thread/INFO]: ithi joined the game
+[18:15:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4385ms or 87 ticks behind
+[18:15:47] [Server thread/INFO]: b4xil[/127.0.0.1:49318] logged in with entity id 328 at (-369.31331475229996, 62.0, -268.095896731296)
+[18:15:47] [Server thread/INFO]: b4xil joined the game
+[18:16:12] [Server thread/INFO]: baba01voss lost connection: Disconnected
+[18:16:12] [Server thread/INFO]: baba01voss left the game
+[18:16:14] [Server thread/INFO]: baba01voss[/127.0.0.1:49322] logged in with entity id 543 at (-384.6994212178478, 62.0, -190.66529375782463)
+[18:16:14] [Server thread/INFO]: baba01voss joined the game
+[18:16:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 32528ms or 650 ticks behind
+[18:16:47] [Server thread/INFO]: Kamikaze313[/127.0.0.1:49336] logged in with entity id 610 at (-105.09148376351237, 64.0, -255.86562505564797)
+[18:16:47] [Server thread/INFO]: Kamikaze313 joined the game
+[18:17:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14888ms or 297 ticks behind
+[18:17:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13619ms or 272 ticks behind
+[18:17:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2958ms or 59 ticks behind
+[18:18:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3284ms or 65 ticks behind
+[18:18:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7390ms or 147 ticks behind
+[18:18:41] [Server thread/INFO]: b4xil lost connection: Disconnected
+[18:18:41] [Server thread/INFO]: b4xil left the game
+[18:18:41] [Server thread/INFO]: ithi lost connection: Disconnected
+[18:18:41] [Server thread/INFO]: ithi left the game
+[18:18:42] [Server thread/INFO]: Kamikaze313 lost connection: Disconnected
+[18:18:43] [Server thread/INFO]: Kamikaze313 left the game
+[18:18:47] [Server thread/INFO]: Kamikaze313[/127.0.0.1:49358] logged in with entity id 1006 at (-139.0585155940769, 63.0, -252.48438816559894)
+[18:18:47] [Server thread/INFO]: Kamikaze313 joined the game
+[18:18:48] [Server thread/INFO]: ithi[/127.0.0.1:49360] logged in with entity id 1010 at (-270.18494258999044, 70.0, -251.95586886497816)
+[18:18:48] [Server thread/INFO]: ithi joined the game
+[18:18:49] [Server thread/INFO]: b4xil[/127.0.0.1:49362] logged in with entity id 1022 at (-299.86728167455834, 65.0, -254.69999998807907)
+[18:18:49] [Server thread/INFO]: b4xil joined the game
+[18:18:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9517ms or 190 ticks behind
+[18:19:02] [Server thread/INFO]: b4xil was shot by Skeleton
+[18:19:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8810ms or 176 ticks behind
+[18:19:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2026ms or 40 ticks behind
+[18:19:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5876ms or 117 ticks behind
+[18:20:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3537ms or 70 ticks behind
+[18:20:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10720ms or 214 ticks behind
+[18:21:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11318ms or 226 ticks behind
+[18:21:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5230ms or 104 ticks behind
+[18:21:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8096ms or 161 ticks behind
+[18:22:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4855ms or 97 ticks behind
+[18:22:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4587ms or 91 ticks behind
+[18:22:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6089ms or 121 ticks behind
+[18:23:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8644ms or 172 ticks behind
+[18:23:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2056ms or 41 ticks behind
+[18:25:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[18:30:53] [Server thread/INFO]: b4xil lost connection: Disconnected
+[18:30:53] [Server thread/INFO]: b4xil left the game
+[18:30:55] [Server thread/INFO]: baba01voss lost connection: Disconnected
+[18:30:55] [Server thread/INFO]: baba01voss left the game
+[18:30:57] [Server thread/INFO]: Kamikaze313 lost connection: Disconnected
+[18:30:57] [Server thread/INFO]: Kamikaze313 left the game
+[18:31:00] [Server thread/INFO]: b4xil[/127.0.0.1:49484] logged in with entity id 4035 at (-359.79311321880243, 63.0, -241.925827657081)
+[18:31:00] [Server thread/INFO]: b4xil joined the game
+[18:31:01] [Server thread/INFO]: Kamikaze313[/127.0.0.1:49486] logged in with entity id 4090 at (-126.7991478313621, 63.0, -254.22991066213712)
+[18:31:01] [Server thread/INFO]: Kamikaze313 joined the game
+[18:31:05] [Server thread/INFO]: baba01voss[/127.0.0.1:49490] logged in with entity id 4186 at (-328.73394808773725, 64.0, -290.1472218818608)
+[18:31:05] [Server thread/INFO]: baba01voss joined the game
+[18:32:06] [Server thread/WARN]: Mismatch in destroy block pos: gg{x=-368, y=60, z=-244} gg{x=-369, y=59, z=-244}
+[18:38:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2048ms or 40 ticks behind
+[18:41:54] [Server thread/INFO]: Kamikaze313 lost connection: Disconnected
+[18:41:54] [Server thread/INFO]: Kamikaze313 left the game
+[18:41:56] [Server thread/INFO]: baba01voss lost connection: Disconnected
+[18:41:56] [Server thread/INFO]: baba01voss left the game
+[18:41:57] [Server thread/INFO]: b4xil lost connection: Disconnected
+[18:41:57] [Server thread/INFO]: b4xil left the game
+[18:41:59] [Server thread/INFO]: Kamikaze313[/127.0.0.1:49596] logged in with entity id 7265 at (-116.75572585096718, 68.0, -255.85289725236032)
+[18:41:59] [Server thread/INFO]: Kamikaze313 joined the game
+[18:42:01] [Server thread/INFO]: b4xil[/127.0.0.1:49598] logged in with entity id 7357 at (-272.2193403861738, 71.0, -257.411602934964)
+[18:42:01] [Server thread/INFO]: b4xil joined the game
+[18:42:13] [Server thread/INFO]: baba01voss[/127.0.0.1:49602] logged in with entity id 7392 at (-97.12711260728973, 60.0, -264.70084247165477)
+[18:42:13] [Server thread/INFO]: baba01voss joined the game
+[18:46:17] [Server thread/INFO]: b4xil hit the ground too hard
+[18:47:26] [Server thread/INFO]: baba01voss was slain by Kamikaze313
+[18:52:29] [Server thread/INFO]: Kamikaze313 lost connection: Disconnected
+[18:52:29] [Server thread/INFO]: Kamikaze313 left the game
+[18:52:32] [Server thread/INFO]: baba01voss lost connection: Disconnected
+[18:52:32] [Server thread/INFO]: baba01voss left the game
+[18:52:34] [Server thread/INFO]: b4xil lost connection: Disconnected
+[18:52:34] [Server thread/INFO]: b4xil left the game
+[18:52:40] [Server thread/INFO]: Kamikaze313[/127.0.0.1:49714] logged in with entity id 9786 at (-237.92117750980918, 70.0, -269.6727425030473)
+[18:52:40] [Server thread/INFO]: Kamikaze313 joined the game
+[18:52:52] [Server thread/INFO]: baba01voss[/127.0.0.1:49718] logged in with entity id 9813 at (-300.39995646565615, 69.0, -258.78909978345433)
+[18:52:52] [Server thread/INFO]: baba01voss joined the game
+[18:53:13] [Server thread/INFO]: b4xil[/127.0.0.1:49720] logged in with entity id 9894 at (-298.68871477632143, 69.0, -263.82935889963187)
+[18:53:13] [Server thread/INFO]: b4xil joined the game
+[19:03:41] [Server thread/INFO]: b4xil lost connection: Disconnected
+[19:03:41] [Server thread/INFO]: b4xil left the game
+[19:04:02] [Server thread/INFO]: baba01voss lost connection: Disconnected
+[19:04:02] [Server thread/INFO]: baba01voss left the game
+[19:04:06] [Server thread/INFO]: b4xil[/127.0.0.1:49854] logged in with entity id 12620 at (-321.30000001192093, 63.0, -290.3373040775743)
+[19:04:06] [Server thread/INFO]: b4xil joined the game
+[19:04:10] [Server thread/INFO]: baba01voss[/127.0.0.1:49856] logged in with entity id 12659 at (-251.69778291550108, 69.9375, -278.35594335459524)
+[19:04:10] [Server thread/INFO]: baba01voss joined the game
+[19:04:19] [Server thread/INFO]: baba01voss lost connection: Disconnected
+[19:04:19] [Server thread/INFO]: baba01voss left the game
+[19:04:21] [Server thread/INFO]: baba01voss[/127.0.0.1:49860] logged in with entity id 12675 at (-251.69778291550108, 69.9375, -278.35594335459524)
+[19:04:21] [Server thread/INFO]: baba01voss joined the game
+[19:08:04] [Server thread/INFO]: b4xil was slain by baba01voss
+[19:08:45] [Server thread/INFO]: baba01voss was slain by Kamikaze313
+[19:11:06] [Server thread/INFO]: Kamikaze313 lost connection: Disconnected
+[19:11:06] [Server thread/INFO]: Kamikaze313 left the game
+[19:11:13] [Server thread/INFO]: b4xil lost connection: Disconnected
+[19:11:13] [Server thread/INFO]: b4xil left the game
+[19:12:11] [Server thread/INFO]: ithi was slain by baba01voss
+[19:12:16] [Server thread/INFO]: baba01voss was slain by ithi
+[19:15:54] [Server thread/INFO]: baba01voss lost connection: Disconnected
+[19:15:54] [Server thread/INFO]: baba01voss left the game
