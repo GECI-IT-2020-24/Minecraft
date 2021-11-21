@@ -15,7 +15,6 @@ Run apt-get update \
  && sed -i 's/eula=false/eula=true/g' eula.txt \
  && sed -i 's/online-mode=true/online-mode=false/g' server.properties \
  && cd .. \
- && apt-get install wget -yq \
  && wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip \
  && apt-get install unzip -yq \
  && unzip ngrok-stable-linux-amd64.zip
