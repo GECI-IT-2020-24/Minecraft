@@ -501,6 +501,7 @@
     "criteria": {
       "minecraft:pillager": "2021-11-22 12:13:46 -0500",
       "minecraft:skeleton": "2021-11-22 12:19:01 -0500",
+      "minecraft:vindicator": "2021-11-29 15:11:22 -0500",
       "minecraft:spider": "2021-11-24 12:11:23 -0500",
       "minecraft:zombie": "2021-11-20 03:29:44 -0500"
     },
@@ -1410,6 +1411,12 @@
   "minecraft:recipes/decorations/red_carpet_from_white_carpet": {
     "criteria": {
       "has_red_dye": "2021-11-23 13:11:58 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2021-11-29 15:22:27 -0500"
     },
     "done": true
   },
@@ -2401,6 +2408,12 @@
   "minecraft:recipes/building_blocks/pink_stained_glass": {
     "criteria": {
       "has_glass": "2021-11-20 06:58:46 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2021-11-29 15:22:27 -0500"
     },
     "done": true
   },
